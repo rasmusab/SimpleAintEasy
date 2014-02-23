@@ -7,7 +7,8 @@ dir.create(
     showWarnings = FALSE
 )
 
-
+# Renders a plot that shows how the sample mean and medians are changed by 
+# perturbing a single observation
 pdf(file.path("images", "mean", "002", "001.pdf"), height = 4)
 
 old_par <- par(mar=c(2.2, 1, 1, 1))
